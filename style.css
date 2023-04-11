@@ -1,0 +1,59 @@
+.root-nav{
+    width: 170px;
+    display: flex;
+}
+
+.root-nav li{
+    height: 85px;
+    list-style-type:circle;
+    list-style-position:inside;
+    background: #265;
+    padding-left: 0;
+    position: relative;
+    color:antiquewhite;
+    border: 1.5px solid rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+}
+
+.root-nav a,
+.root-nav span{
+    text-decoration: none;
+    color:antiquewhite;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.root-nav ul{
+    display: none;
+    position: absolute;
+    right: -150px;
+    top: 0;
+    width: 150px;
+}
+
+ul.sub-menu-active{
+    display: block;
+}
+
+.root-nav li:active{
+    background-color: #267;
+}
+
+.books{
+    display: block;
+    position: relative;
+    margin: 30px;
+}
+
+.DVD{
+    display: block;
+    position: relative;
+    margin: 30px;
+    margin-left: 250px;
+}
+
+span.sub-menu-active-span{
+    background: #267;
+  }
